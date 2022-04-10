@@ -28,3 +28,5 @@ function makeMarkup(array) {
 		return `<li><img src="${url}" alt="${alt}"></li>`;
 	});
 }
+//todo Усі елементи галереї повинні додаватися в DOM за одну операцію додавання.
+gallery.insertAdjacentHTML("beforeend", makeMarkup(images).join(""));
