@@ -25,7 +25,7 @@ const gallery = document.querySelector(".gallery");
 //todo Для створення розмітки використовуй шаблонні рядки і метод insertAdjacentHTML()
 function makeMarkup(array) {
 	return array.map(({ url, alt }) => {
-		return `<li><img src="${url}" width="600px" alt="${alt}"></li>`;
+		return `<li><img src="${url}" alt="${alt}"></li>`;
 	});
 }
 
