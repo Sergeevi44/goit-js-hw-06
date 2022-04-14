@@ -22,5 +22,6 @@ function onFormSubmit(e) {
 		return alert("Всі поля повинні бути заповнені");
 	} else {
 		console.log(object);
+		refs.form.reset();
 	}
 }
