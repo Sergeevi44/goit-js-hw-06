@@ -11,7 +11,6 @@ const refs = {
 refs.input.addEventListener("input", onInputChange);
 
 function onInputChange() {
-	console.log(refs.input.value);
 	if (refs.input.value) {
 		refs.output.textContent = refs.input.value;
 	} else {
